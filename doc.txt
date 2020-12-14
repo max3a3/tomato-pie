@@ -1,0 +1,40 @@
+---
+using straight js for the ui is kinda lots of work to modify
+
+need to read up on using react (see links at the bottom)
+
+and adding crx-reload to force reload after parcel watch trigger
+
+---
+add start2 for windows build
+  copy manually from src to dist
+    manifest.json
+    src/assets to dist/assets
+
+the parcel script create the
+
+  parcel command is a builder and a webrunner
+
+  need to watch the param in the package.json start2
+
+     this works in terminal
+       parcel watch src/background.js src/index.html --public-url . --no-cache --no-hmr
+
+
+  --public url
+
+output in dist?
+
+-- to muck with localstorage
+copy paste from script/create-demo-tomatoes.js in console
+
+--- to install
+set chrome extension developer mode
+
+drag drop the dist folder?
+---
+
+
+
+https://www.samdawson.dev/article/parceljs-chrome-extension
+https://www.freecodecamp.org/news/chrome-extension-with-parcel-tailwind/
